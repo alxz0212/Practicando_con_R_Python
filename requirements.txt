@@ -2,3 +2,8 @@ streamlit
 pandas
 numpy
 scipy
+dash
+dash-bootstrap-components
+plotly
+openpyxl
+gradio
