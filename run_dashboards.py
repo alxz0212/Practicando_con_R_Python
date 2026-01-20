@@ -6,11 +6,11 @@ import sys
 def main():
     print("Iniciando Dashboard 01 (Streamlit)...")
     # Streamlit por defecto usa puerto 8501
-    p1 = subprocess.Popen([sys.executable, "-m", "streamlit", "run", "01_Dashboard.py", "--server.port=8501", "--server.headless=true"])
+    p1 = subprocess.Popen([sys.executable, "-m", "streamlit", "run", "01.1_Dashboard.py", "--server.port=8501", "--server.headless=true"])
     
-    print("Iniciando Dashboard 02 (Shiny/Uvicorn)...")
-    # Shiny/Uvicorn en puerto 8050
-    p2 = subprocess.Popen([sys.executable, "-m", "uvicorn", "02_Dashboard:app", "--port", "8050"])
+    print("Iniciando Dashboard 02 (Shiny)...")
+    # Shiny run en puerto 8050
+    p2 = subprocess.Popen([sys.executable, "-m", "shiny", "run", "02_2_Dashboard.py", "--port", "8050"])
     
     print("Esperando a que los servidores arranquen...")
     time.sleep(5)
