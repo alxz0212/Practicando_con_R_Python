@@ -142,8 +142,6 @@ Este proyecto ha sido desarrollado siguiendo la metodología y el código base d
 - **Institución**: @TodoEconometria
 - **Hash de Certificación**: `4e8d9b1a5f6e7c3d2b1a0f9e8d7c6b5a4f3e2d1c0b9a8f7e6d5c4b3a2f1e0d9c`
 
-### 📚 Bibliografía Adicional
-
 Para profundizar más en los temas tratados, recomendamos las siguientes referencias "Standard":
 
 1.  **Batra, N., et al. (2021).** _The Epidemiologist R Handbook_. (Una referencia esencial para epidemiología de campo).
